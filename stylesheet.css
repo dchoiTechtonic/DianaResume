@@ -2,7 +2,10 @@ body {
   margin: 10%;
   font-family: Rockwell;
 }
-
+header {
+  display: block;
+  width: 100%;
+}
 h1 {
   font-size: 50px;
   height: 15px;
@@ -40,14 +43,11 @@ h3 span{
   float: left;
   width: 70%;
 }
-.heading {
-  display: block;
-  width: 100%;
-}
 .Ex, .Edu, .Skills{
   float: left;
   width: 100%;
   border-top: 1px solid grey;
+  margin-top: 20px;
 }
 .skills1 {
   float: left;
